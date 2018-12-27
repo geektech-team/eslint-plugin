@@ -1,0 +1,20 @@
+{
+    "apps" : [{
+      "name"        : "navigation-admin",
+      "script"      : "./app.js",
+      "watch": [
+        "server",
+        "app.js",
+        "node_modules"
+      ],
+      "ignore_watch" : [
+        ".git"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "env_development" : {
+         "NODE_ENV": "development"
+      }
+    }]
+  }
