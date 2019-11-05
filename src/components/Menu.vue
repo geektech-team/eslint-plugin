@@ -14,7 +14,7 @@
       <el-submenu index="2">
         <template slot="title">
           <i class="el-icon-location"></i>
-          <span slot="title">导航一</span>
+          <span slot="title">User</span>
         </template>
         <el-menu-item-group>
           <span slot="title">分组一</span>
@@ -38,7 +38,11 @@
       </el-menu-item>
       <el-menu-item index="4">
         <i class="el-icon-setting"></i>
-        <span slot="title">导航四</span>
+        <span slot="title">Donations</span>
+      </el-menu-item>
+      <el-menu-item index="5">
+        <i class="el-icon-setting"></i>
+        <span slot="title">Mall</span>
       </el-menu-item>
     </el-menu>
   </aside>
