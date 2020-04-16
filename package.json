@@ -2,10 +2,12 @@
   "name": "my-assistant-admin",
   "version": "0.1.0",
   "private": true,
+  "main": "main.js",
   "scripts": {
+    "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "vue-cli-service serve"
+    "start:app": "electron ."
   },
   "dependencies": {
     "babel-preset-es2015": "^6.24.1",
@@ -22,6 +24,7 @@
     "axios": "^0.18.0",
     "babel-eslint": "^10.0.1",
     "babel-plugin-component": "^1.1.1",
+    "electron": "^7.1.7",
     "eslint-plugin-vue": "^5.0.0-0",
     "node-sass": "^4.10.0",
     "sass-loader": "^7.1.0",
