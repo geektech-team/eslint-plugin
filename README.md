@@ -1,29 +1,15 @@
-# my-assistant-admin
+# Eslint Config
 
-## Project setup
-```
-yarn install
-```
+## Usage
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+在你的 .eslintrc.js，加入
 
-### Compiles and minifies for production
-```
-yarn run build
+```js
+modules.export = {
+    "extends": ["plugin:@geektech/recommended"]
+}
 ```
 
-### Run your tests
+```bash
+npx eslint ./src/**/*.{vue,ts} --fix
 ```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
