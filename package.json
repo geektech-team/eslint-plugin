@@ -1,11 +1,11 @@
 {
   "name": "@geektech/eslint-plugin",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "geektech config for eslint",
   "keywords": [
     "eslint",
-    "eslint-config",
-    "eslint-config-vue",
+    "eslint-plugin",
+    "eslint-plugin-vue",
     "geektech"
   ],
   "author": "geektech",
