@@ -1,6 +1,6 @@
 {
   "name": "@geektech/eslint-plugin",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "geektech config for eslint",
   "keywords": [
     "eslint",
