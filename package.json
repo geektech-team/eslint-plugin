@@ -1,6 +1,6 @@
 {
   "name": "@geektech/eslint-plugin",
-  "version": "0.0.5",
+  "version": "0.0.9",
   "description": "geektech config for eslint",
   "keywords": [
     "eslint",
@@ -14,17 +14,20 @@
     "type": "git"
   },
   "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests/lib/rules"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
-    "eslint": ">= 7",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-vue": "^9.1.0"
   },
-  "peerDependencies": {
-    "eslint": ">= 7"
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "mocha": "^10.0.0"
   }
 }
