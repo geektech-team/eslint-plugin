@@ -13,7 +13,7 @@ module.exports = {
 ```
 
 ```bash
-npx eslint ./src/**/*.{js,jsx} --fix
+npx eslint ./src --ext .ts,.vue --fix
 ```
 
 ### vue3 + ts项目
