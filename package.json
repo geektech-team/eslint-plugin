@@ -1,6 +1,6 @@
 {
   "name": "@geektech/eslint-plugin",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "geektech config for eslint",
   "keywords": [
     "eslint",
@@ -11,7 +11,8 @@
   "author": "geektech",
   "license": "MIT",
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/geektech-team/eslint-plugin.git"
   },
   "main": "lib/index.js",
   "scripts": {
